@@ -1,0 +1,8 @@
+.menu-tabs > li:nth-child(1) span::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FB0000;
+    margin-right: 5px;
+}

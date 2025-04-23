@@ -1,3 +1,11 @@
+.menu-tabs {
+    border-bottom: 1px solid #1A1635;
+    display: flex;
+    margin-top: 30px!important;
+    overflow: auto;
+    white-space: nowrap;
+}
+
 .menu-tabs > li:nth-child(1) span::before {
     content: '';
     width: 8px;

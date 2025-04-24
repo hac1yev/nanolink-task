@@ -1,0 +1,73 @@
+.mobile-accordion {
+    display: none;
+}
+
+table {
+    color: #fff;
+    width: 100%;
+}
+
+table tr {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-header-sub, 
+.table-body-sub1, 
+.table-body-sub1 {
+    width: 40%;
+}
+
+
+.result-table-header {
+    margin: 25px 0;
+}
+
+.table-header-sub td, 
+.table-body-sub1 td, 
+.table-body-sub2 td {
+    width: 6%;
+}
+
+.table-body-sub1, 
+.table-body-sub2 {
+    display: flex;
+    width: 40%;
+}
+
+.table-body-sub1 td, 
+.table-body-sub2 td {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    white-space: nowrap;
+}
+
+.table-body-sub2 td {
+    gap: 10px;
+}
+
+.result-table-body {
+    padding: 20px 0;
+}
+
+.result-table-body::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background-image: url('../../assets/Line.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    z-index: 10;
+    height: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        display: none;
+    }
+}

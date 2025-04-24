@@ -1,0 +1,18 @@
+
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+
+.chevron-down {
+  transition: transform 0.3s ease;
+}
+
+.result-chevron-down {
+  position: absolute;
+  right: 25px;
+  transition: transform 0.3s ease;
+}
+
+.tab input[type="checkbox"]:checked + label .chevron-down {
+  transform: rotateX(180deg);
+}

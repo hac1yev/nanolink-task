@@ -1,16 +1,18 @@
-import { useState } from "react";
 import './MenuTabs.css';
 import { MENUTABS } from "../../data/Tabs";
 
-const MenuTabs = () => {
-    const [activeTab,setActiveTab] = useState('Live');
+type MenuTabsType = {
+    setActiveTab: (value: string) => void;
+    activeTab: string;
+}
 
+const MenuTabs = ({ setActiveTab,activeTab }: MenuTabsType) => {
     const handleActive = (tab: string) => {
         setActiveTab(tab);
-    };
+    };  
 
     return (
-        <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 my-10 md:my-14">
+        <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 my-10 md:my-10">
             <ul className="menu-tabs flex overflow-x-auto">
                 {MENUTABS.map((tab,index) => (
                     <li 

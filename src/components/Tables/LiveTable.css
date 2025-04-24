@@ -1,0 +1,138 @@
+.live-table-body::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background-image: url('../../assets/Line.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    z-index: 10;
+    height: 10px;
+}
+
+.live-table-header-sub2,
+.live-table-body-sub2 {
+    width: 40%;
+}
+
+.live-table-header-sub2 > th {
+    width: 6%;
+}
+
+.live-flag {
+    min-width: 20px;
+    min-height: 14px;
+}
+
+.live-country {
+    width: calc(15% - 20px);
+    height: calc(15% - 14px);
+}
+
+.live-table-body-sub2 {
+    display: flex;
+}
+
+.live-table-body-sub2 td {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 33%;
+}
+
+.live-wait {
+    background: #F5A100; 
+    padding: 5px 30px; 
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.live-go {
+    background: #02D169; 
+    padding: 5px 30px; 
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.live-dep {
+    display: flex;
+    gap: 10px;
+}
+
+.live-table-body-sub1 {
+    width: 55%;
+}
+
+.live-table-body-sub1 td {
+    white-space: nowrap;
+}
+
+.live-table-body-sub1 td:nth-child(1) {
+    width: 12%;
+}
+
+.live-table-body-sub1 td:nth-child(2) {
+    width: 15%;
+    display: flex;
+    gap: 10px;
+}
+
+.live-table-body-sub1 td:nth-child(3) {
+    width: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+    .live-table-body-sub1 td span,
+    .live-table-body-sub1 td {
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 800px!important;
+    }    
+
+    .live-wait,
+    .live-go {
+        padding: 4px 20px;
+    }
+
+    .live-table-body-sub2 td {
+        font-size: 14px;
+    }
+
+    .live-table-body-sub2,
+    .live-table-header-sub2 {
+        width: 35%;
+    }
+
+    .live-rank{
+        width: 25px;
+        height: 25px;
+    }
+
+    .live-table-body-sub1 td,
+    .live-table-body-sub1 td span {
+        font-size: 14px!important;
+    }
+
+    .live-table-body-sub1 td:nth-child(2) {
+        width: 20%;
+    }
+
+    .live-table-body-sub1 {
+        width: 65%!important;
+    }
+
+    .inquiry-country {
+        width: 15%!important;
+    }
+
+    .inquiry-bib {
+        width: 16%!important;
+    }
+}

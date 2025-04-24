@@ -1,7 +1,3 @@
-.mobile-filter-tabs-row {
-    display: none;
-}
-
 .filter-tabs-row {
     display: flex;
     gap: 15px;
@@ -9,25 +5,7 @@
     justify-content: center;
 }
 
-.filter-tabs-row > div {
-    display: flex;
-    border: 1px solid #1A1635;
-    border-radius: 8px;
-}
-.filter-tabs-row > div >div {
-    padding: 12px 20px;
-    display: flex;
-    font-size: 16px;
-    white-space: nowrap;
-    line-height: 24px;
-    color: #D9D9D9;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    cursor: pointer;
-}
-
 .filter-active {
-    padding: 10px;
     background-color: #1A1635;
     border-radius: 8px;
 }
@@ -38,79 +16,13 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .filter-tabs-row > div >div {
-        padding: 9px 15px;
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .filter-tab {
-        width: 110px;
-        background-color: #1A1635;
-        padding: 12px 20px;
-        border-radius: 8px;
-        font-size: 16px;
-        white-space: nowrap;
-        line-height: 24px;
-        color: #D9D9D9;
-        font-weight: 400;
-        letter-spacing: -0.5px;
-        cursor: pointer;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-    }
-
-    .modile-active-filter-tabs {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    .mobile-filter-tabs-row span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 14px;
-        line-height: 22px;
-        font-weight: 400;
-        color: #fff;
-        background-color: #0A8BEC;
-        border-radius: 78px;
-        padding: 6px 20px;
-        gap: 5px;
-    }
-
-    .mobile-filter-tabs-row span img {
-        width: 12px;
-        height: 12px;
-        cursor: pointer;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .menu-tabs-row > div {
         min-width: 148px!important;
     }
 
-    #filterImages {
-        display: none!important;
-    }
-
     .filter-tabs-row {
         display: none;
-    }
-
-
-    .mobile-filter-tabs-row {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
     }
 }
 

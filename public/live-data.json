@@ -1,0 +1,157 @@
+{
+  "lives": [
+    {
+      "rank": "public/images/live/filter1.svg",
+      "country": "AZE",
+      "flag": "public/images/live/az.svg",
+      "bib": 212,
+      "name": "Amirbekov T.",
+      "dep": {
+        "d": 5400,
+        "e": 8800,
+        "p": 0.3
+      },
+      "app": {
+        "score": 12500,
+        "rank": 7
+      },
+      "aa": {
+        "score": 102360,
+        "rank": 4
+      },
+      "team": {
+        "score": 102360,
+        "rank": 12
+      },
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter2.svg",
+      "country": "RUS",
+      "flag": "public/images/live/rus.svg",
+      "bib": 132,
+      "name": "Amirbekov T.",
+      "dep": {
+        "wait": true
+      },
+      "app": {},
+      "aa": {},
+      "team": {},
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter3.svg",
+      "country": "TUR",
+      "flag": "public/images/live/tr.svg",
+      "bib": 624,
+      "name": "Terim F.",
+      "dep": {
+        "d": 5400,
+        "e": 8800,
+        "p": 0.3
+      },
+      "app": {
+        "score": 12500,
+        "rank": 7
+      },
+      "aa": {
+        "score": 102360,
+        "rank": 4
+      },
+      "team": {
+        "score": 102360,
+        "rank": 12
+      },
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter4.svg",
+      "country": "FRA",
+      "flag": "public/images/live/rus.svg",
+      "bib": 624,
+      "name": "Terim F.",
+      "dep": {
+        "go": true
+      },
+      "app": {},
+      "aa": {},
+      "team": {},
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter5.svg",
+      "country": "ISR",
+      "flag": "public/images/live/isr.svg",
+      "bib": 401,
+      "name": "Wiltord T.",
+      "dep": {
+        "d": 5400,
+        "e": 8800,
+        "p": 0.3
+      },
+      "app": {
+        "score": 12500,
+        "rank": 7
+      },
+      "aa": {
+        "score": 102360,
+        "rank": 4
+      },
+      "team": {
+        "score": 102360,
+        "rank": 12
+      },
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter6.svg",
+      "country": "GER",
+      "flag": "public/images/live/ger.svg",
+      "bib": 102,
+      "name": "Bakaev J.",
+      "dep": {
+        "d": 5400,
+        "e": 8800,
+        "p": 0.3
+      },
+      "app": {
+        "score": 12500,
+        "rank": 7
+      },
+      "aa": {
+        "score": 102360,
+        "rank": 4
+      },
+      "team": {
+        "score": 102360,
+        "rank": 12
+      },
+      "inquiry": false
+    },
+    {
+      "rank": "public/images/live/filter6.svg",
+      "country": "GER",
+      "flag": "public/images/live/ger.svg",
+      "bib": 102,
+      "name": "Bakaev J.",
+      "dep": {
+        "d": 5400,
+        "e": 8800,
+        "p": 0.3
+      },
+      "app": {
+        "score": 12500,
+        "rank": 7
+      },
+      "aa": {
+        "score": 102360,
+        "rank": 4
+      },
+      "team": {
+        "score": 102360,
+        "rank": 12
+      },
+      "inquiry": true
+    }
+  ]
+}

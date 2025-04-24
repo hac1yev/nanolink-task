@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "rank": 1,
+      "team": "RUS",
+      "flag": "public/images/result/rus.svg",
+      "bib": 212,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": false,
+      "first_total": false
+    },
+    {
+      "rank": 2,
+      "team": "EST",
+      "flag": "public/images/result/est.svg",
+      "bib": 132,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": false
+    },
+    {
+      "rank": 3,
+      "team": "POR",
+      "flag": "public/images/result/por.svg",
+      "bib": 624,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": true
+    },
+    {
+      "rank": 4,
+      "team": "ISR",
+      "flag": "public/images/result/isr.svg",
+      "bib": 624,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": true
+    },
+    {
+      "rank": 5,
+      "team": "POL",
+      "flag": "public/images/result/pol.svg",
+      "bib": 401,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": true
+    },
+    {
+      "rank": 6,
+      "team": "NED",
+      "flag": "public/images/result/ned.svg",
+      "bib": 102,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": true
+    },
+    {
+      "rank": 7,
+      "team": "GBR",
+      "flag": "public/images/result/gbr.svg",
+      "bib": 102,
+      "name": "Bonartsev Aleksandr",
+      "d": 43833,
+      "e": 43833,
+      "pen": 43833,
+      "total": 102256,
+      "score": true,
+      "first_total": true
+    }
+  ]
+}

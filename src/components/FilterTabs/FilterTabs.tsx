@@ -86,44 +86,44 @@ const FilterTabs = () => {
 
     return (
         <>
-            <div className="row mb-5 md:my-5">
-                <div className="filter-tabs-row p-0">
-                    <div>
+            <div className="row mb-7 md:my-5">
+                <div className="hidden md:flex md:items-center md:justify-center md:gap-2 p-0">
+                    <div className='flex border min-w-20 border-[#1A1635] rounded-lg'>
                         {FILTERTABS1.map((tab) => (
                             <div 
                                 key={tab.id} 
-                                className={state.filter1 === tab.title ? 'filter-active' : ''} 
+                                className={state.filter1 === tab.title ? 'filter-active md:flex md:items-center md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer' : 'md:flex md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer'} 
                                 onClick={handleActiveTab.bind(null, { type: 'filter1', title: tab.title })}
                             >
                                 {tab.title}
                             </div>
                         ))}
                     </div>
-                    <div>
+                    <div className='flex border min-w-36 border-[#1A1635] rounded-lg'>
                         {FILTERTABS2.map((tab) => (
                             <div 
                                 key={tab.id} 
-                                className={state.filter2 === tab.title ? 'filter-active' : ''} 
+                                className={state.filter2 === tab.title ? 'filter-active md:flex md:items-center md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer' : 'md:flex md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer'}  
                                 onClick={handleActiveTab.bind(null, { type: 'filter2', title: tab.title })}>
                                 {tab.title}
                             </div>
                         ))}
                     </div>
-                    <div>
+                    <div className='flex border min-w-36 border-[#1A1635] rounded-lg'>
                         {FILTERTABS3.map((tab) => (
                             <div 
                                 key={tab.id} 
-                                className={state.filter3 === tab.title ? 'filter-active' : ''} 
+                                className={state.filter3 === tab.title ? 'filter-active md:flex md:items-center md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer' : 'md:flex md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer'}  
                                 onClick={handleActiveTab.bind(null, { type: 'filter3', title: tab.title })}>
                                 {tab.title}
                             </div>
                         ))}
                     </div>
-                    <div>
+                    <div className='flex border min-w-36 border-[#1A1635] rounded-lg'>
                         {FILTERTABS4.map((tab) => (
                             <div 
                                 key={tab.id} 
-                                className={state.filter4 === tab.title ? 'filter-active' : ''} 
+                                className={state.filter4 === tab.title ? 'filter-active md:flex md:items-center md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer' : 'md:flex md:py-2 md:px-4 lg:py-2 lg:px-3 md:text-sm lg:text-base md:whitespace-nowrap md:text-slate-200 md:cursor-pointer'} 
                                 onClick={handleActiveTab.bind(null, { type: 'filter4', title: tab.title })}
                             >
                                 {tab.title}
@@ -131,22 +131,22 @@ const FilterTabs = () => {
                         ))}
                     </div>
                 </div>
-                <div className="mobile-filter-tabs-row">
-                    <div className='filter-tab mb-4'  onClick={handleMobileFilter}>
+                <div className="mobile-filter-tabs-row flex flex-col items-end md:hidden">
+                    <div className='filter-tab flex items-center justify-center gap-1 w-28 bg-slate-900 py-3 px-8 rounded-md text-base whitespace-nowrap text-slate-200 cursor-pointer text-center mb-4'  onClick={handleMobileFilter}>
                         <img src={filterIcon} alt="filter-icon" />
                         Filter
                     </div>
-                    {mobileFilter && <div className='modile-active-filter-tabs'>
+                    {mobileFilter && <div className='flex justify-start gap-2 flex-wrap w-full'>
                         {state.activeFilters.map((tab, i) => (
-                            <span key={i}>
-                                <img src={cancel} alt="cancel" onClick={handleDelecteActiveFilter.bind(null, tab)} />
+                            <span className='flex items-center justify-center text-sm text-white bg-blue-500 rounded-full py-1 px-5 gap-1' key={i}>
+                                <img className='w-3 cursor-pointer' src={cancel} alt="cancel" onClick={handleDelecteActiveFilter.bind(null, tab)} />
                                 {tab}
                             </span>
                         ))}
                     </div>}
                 </div>
             </div>
-            <div className='flex justify-center gap-16 mt-16 mb-20' id='filterImages'>
+            <div className='hidden md:flex md:justify-center md:gap-16 md:mt-16 md:mb-20' id='filterImages'>
                 <div className='flex justify-center'>
                     <img src={filterImg1} alt="filter1" />
                 </div>
